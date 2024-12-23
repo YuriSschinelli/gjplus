@@ -1,5 +1,5 @@
 extends CharacterBody2D
-
+#TODO melhorar a Ai. Possivelmente fazer um Overhaul na mecânica do personagem.
 @onready var prospero = get_parent().get_node("Prospero")
 const SPEED = 10000.0
 const JUMP_VELOCITY = -400.0
